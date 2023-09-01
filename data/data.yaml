@@ -1,0 +1,13 @@
+train: ../datasets/carte_dataset/train/images
+val: ../datasets/carte_dataset/valid/images
+test: ../datasets/carte_dataset/train/images
+
+nc: 1
+names: ['carte']
+
+roboflow:
+  workspace: iesc
+  project: cartedetector
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/iesc/cartedetector/dataset/1
